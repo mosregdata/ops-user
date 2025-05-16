@@ -1,0 +1,39 @@
+# Временные файлы и сборки
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Директория сборки
+/bin/
+/build/
+
+# Зависимости (если используется vendor, можно оставить)
+vendor/
+
+# Файлы редакторов и IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Логи и временные файлы
+*.log
+tmp/
+*.tmp
+
+# Тестовые кэши и покрытие
+*.cover
+coverage.txt
+profile.out
+
+# Файлы macOS
+.DS_Store
+
+# Локальная конфигурация
+.env
+config.local.*
